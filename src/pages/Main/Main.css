@@ -1,0 +1,15 @@
+.main{
+    flex: 1 1 auto;
+    margin-top: 102px;
+}
+@media screen and (max-width: 991px) {
+    .main{
+        margin-top: 64px;
+    }
+}
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
+
+}

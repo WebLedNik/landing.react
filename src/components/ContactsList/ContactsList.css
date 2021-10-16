@@ -1,0 +1,33 @@
+.contacts-list__item:first-child {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.contacts-list__item {
+    display: flex;
+    align-content: center;
+    margin: 16px 0;
+}
+
+.contacts-list__item:last-child{
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.contacts-list__link{
+    margin-left: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.contacts-list__link_dark{
+    color: #333333;
+}
+
+.contacts-list__link:hover{
+    opacity: .8;
+}

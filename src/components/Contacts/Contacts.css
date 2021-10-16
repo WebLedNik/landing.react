@@ -1,0 +1,52 @@
+.contacts{
+    flex: 1 1 auto;
+    width: 100%;
+    margin-bottom: 120px;
+}
+.contacts__title{
+    margin-bottom: 60px;
+}
+.contacts__subtitle{}
+.contacts__row{
+    display: flex;
+}
+.contacts__info{
+    flex: 0 1 50%;
+    margin-right: 30px;
+}
+.contacts__company{}
+.contacts__map{
+    border-radius: 4px;
+    flex: 0 1 550px;
+    transition: all ease .3s;
+}
+.contacts__map:hover{
+    transform: scale(1.03);
+}
+@media screen and (max-width: 991px) {
+    .contacts{
+        margin-bottom: 60px;
+    }
+    .contacts__row{
+        display: block;
+    }
+    .contacts__title{
+        margin-bottom: 30px;
+    }
+    .contacts__info{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 479px) {
+    .contacts__title{
+        margin-bottom: 8px;
+    }
+    .contacts{
+        margin-bottom: 30px;
+    }
+}

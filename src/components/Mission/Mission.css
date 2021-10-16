@@ -1,0 +1,71 @@
+.mission{
+
+}
+.main__mission{
+    margin-bottom: 100px; /*Не 120 тк есть отспупы у mission__number*/
+}
+.mission__title{
+    margin-bottom: 20px;
+}
+.mission__row{
+    display: grid;
+    grid-gap:30px ;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.mission__col{
+    flex: 0 0 45%;
+    display: flex;
+}
+.mission__number{
+    margin-right: 30px;
+}
+.mission__number span{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 234px;
+    color: #F2F2F2;
+}
+.mission__text{
+    margin-top: 40px;
+}
+.mission__text p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333333;
+}
+@media screen and (max-width: 991px) {
+    .main__mission{
+        margin-bottom: 60px;
+    }
+    .mission__number{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mission__number span{
+        font-size: 150px;
+    }
+    .mission__text{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .main__mission{
+        margin-bottom: 30px;
+    }
+    .mission__row{
+        grid-gap:12px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .mission__title{
+        margin-bottom: 0;
+    }
+    .mission__text p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

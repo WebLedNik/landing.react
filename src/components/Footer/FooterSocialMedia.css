@@ -1,0 +1,33 @@
+.footer__social-media{
+    display: flex;
+}
+
+.footer__social-media-item{
+    margin: 0 20px;
+}
+
+.footer__social-media-item:hover{
+    opacity: .8;
+}
+
+.footer__social-media-item:first-child{
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.footer__social-media-item:last-child{
+    margin-right: 0;
+    margin-left: 20px;
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 767px) {
+    .footer__social-media{
+        display: flex;
+    }
+
+}
+@media screen and (max-width: 479px) {
+
+}

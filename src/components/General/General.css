@@ -1,0 +1,116 @@
+.general{
+    display: flex;
+    justify-content: space-between;
+}
+.general__container{
+    max-width: 1130px;
+    margin: 0 auto 120px;
+    padding: 0 20px;
+}
+.general__left{
+    flex: 1 1 auto;
+}
+.general__title{
+    margin-top: 336px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+}
+.general__subtitle{
+    margin-bottom: 90px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+.general__slider-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+.general__slider-subtitle{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+.general__controls{
+    margin-bottom: 90px;
+}
+.general__right{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+}
+.general__img{
+    width: 100%;
+    height: 829px;
+    object-fit: cover;
+}
+.general__slider-text{
+    display: none;
+
+    position: absolute;
+    left:0;
+    top: 50%;
+    width: 100%;
+    background: #FFFFFF;
+    transform: translate(0, -50%);
+    z-index: 500;
+}
+.general__slider-wrapper{
+    padding: 16px;
+}
+
+@media (max-width: 1150px) {
+    .general__right{
+        max-width: 500px;
+    }
+    .general__img{
+        height: 629px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .general__container{
+        max-width: 1130px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .general{
+        display: block;
+        margin-bottom: 60px;
+    }
+    .general__slider-text{
+        display: block;
+    }
+    .general__left{
+        display: none;
+    }
+    .general__right{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
+    .general{
+        margin-bottom: 30px;
+    }
+    .general__slider-title{
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .general__slider-subtitle{
+        text-align: center;
+        font-size: 40px;
+    }
+}

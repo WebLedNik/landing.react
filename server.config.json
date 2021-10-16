@@ -1,0 +1,16 @@
+{
+  "port": 3000,
+  "url_client": "https://landing.weblednik.ru",
+  "product":{
+    "name":"StewardCafeAds",
+    "address":"г. Москва, Романов переулок, 3с6, 125009"
+  },
+  "yandex_mail": {
+    "user": "noreply@weblednik.ru",
+    "pass": "8J/hV.?SqmLvAh8"
+  },
+  "yandex_support_mail": {
+    "user": "support@weblednik.ru.",
+    "pass": ""
+  }
+}

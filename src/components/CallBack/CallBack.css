@@ -1,0 +1,30 @@
+.main__contact-us{
+    margin-bottom: 120px;
+}
+.contact-us__title{
+    margin-bottom: 60px;
+}
+.contact-us__row{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 991px) {
+    .main__contact-us{
+        margin-bottom: 60px;
+    }
+    .contact-us__title{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 479px) {
+    .main__contact-us {
+        margin-bottom: 30px;
+    }
+    .contact-us__title{
+        margin-bottom: 8px;
+    }
+}
